@@ -1,11 +1,11 @@
 
 # Site settings
-title: 'Jekyll Boostrap Starter'
-email: ackernaut@gmail.com
-description: 'Jekyll Boostrap Starter'
+title: 'First 100 for #NoDAPL'
+email: dhornbein@gmail.com
+description: 'Retail and Service Industries global fundraising campaign for Standing Rock'
 baseurl:          /jekyll-bootstrap-starter
 url:              http://ackernaut.github.io
-name:             'Jekyll Boostrap Starter'
+name:             'First 100 for #NoDAPL'
 permalink:        pretty
 twitter_username: ackernaut
 github_username:  ackernaut
@@ -14,3 +14,10 @@ port: 4040
 # Build settings
 markdown: kramdown
 exclude:  [node_modules]
+
+# Resources
+forms:
+ join: https://goo.gl/forms/ySeowrZ7zSHKVqfp2
+ report: https://goo.gl/forms/zkztUhk8AS42VRhX2
+prints:
+ pos: https://drive.google.com/open?id=0BweC4_lD2gMbZ013TUZIX09PdDg

@@ -2,12 +2,119 @@
 layout: default
 ---
 
-<div class="container">
+<div class="container text-center">
   <h1>{{site.name}}</h1>
   <p>{{site.description}}</p>
-  <p>Get started here: <a href="https://github.com/ackernaut/jekyll-bootstrap-starter" title="GitHub: Jekyll Bootstrap Starter">https://github.com/ackernaut/jekyll-bootstrap-starter</a></p>
-  {% include navbar.html %}
-  {% include header.html %}
-  {% include icons.html %}
-  {% include footer.html %}
+  <div class="row">
+    <div class="col-sm-12">
+      <h1>How do I participate?</h1>
+    </div>
+  </div>
+  <div class="row text-center steps">
+    <div class="col-md-3">
+      <h3>Step 1</h3>
+      <h2><a href="#step1">Register</a></h2>
+      <p>Add your business to our list</p>
+    </div>
+    <div class="col-md-3">
+      <h3>Step 2</h3>
+      <h2><a href="#step2">Print Fliers &amp; Promote</a></h2>
+      <p>Print out material to post at your business and teach your employees to ask "can you donate $1?"</p>
+    </div>
+    <div class="col-md-3">
+      <h3>Step 3</h3>
+      <h2><a href="#step3">Collect &amp; track donations</a></h2>
+      <p>Keep records of your donations so we can track our collective impact</p>
+    </div>
+    <div class="col-md-3">
+      <h3>Step 4</h3>
+      <h2><a href="#step4">Submit results &amp; money</a></h2>
+      <p>Send donations to the front line</p>
+    </div>
+  </div>
+  <div id="step1">
+    <div class="row">
+      <div class="col-sm-12">
+        <h1>Step 1: Register</h1>
+        <p class="lead">Register your business with us so we can promote you and keep in touch.</p>
+        <p>
+          <a href="{{ site.forms.join }}" class="btn btn-primary btn-lg" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i> Open Form in New Window</a>
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdFspRT5dlNUcOHMH8JY6ttL92-r-G4tCJGXcXKqcs04XkduA/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0" style="width:100%;max-width:760px;">Loading...</iframe>
+      </div>
+    </div>
+  </div>
+  <div id="step2">
+    <div class="row">
+      <div class="col-sm-12">
+        <h1>Step 2: Print Fliers</h1>
+        <p class="lead">Print out these fliers and post them at your business</p>
+        <p class="lead">Train every employee to ask every customer one simple question, "Would you be willing to donate a $1 or more to Standing Rock?"</p>
+        <p>
+          <a href="{{ site.prints.pos }}" class="btn btn-primary btn-lg"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Download a printable PDF</a>
+        </p>
+        <p>Contains a blue, red, and gray poster along with a quareter sized version of each.
+          <br>
+          <strong>Directions: print on 11" x 8.5" (normal printer paper)</strong></p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6"><a href="{{ site.prints.pos }}"><img src="/assets/dist/images/blue.png" alt="flier for point of sale" class="img-thumbnail"></a></div>
+      <div class="col-md-6"><a href="{{ site.prints.pos }}"><img src="/assets/dist/images/blue-4up.png" alt="quarter page flier for point of sale" class="img-thumbnail"></a></div>
+    </div>
+  </div>
+  <div id="step3">
+    <div class="row">
+      <div class="col-sm-12">
+        <h1>Step 3: Collect &amp; track donations</h1>
+        <p class="lead">Create a system for collecting and tracking donations so we can track out collective impact.</p>
+      </div>
+    </div>
+  </div>
+  <div id="step4">
+    <div class="row">
+      <div class="col-sm-12">
+        <h1>Step 4: Submit results &amp; money</h1>
+        <p class="lead">Choose a location to donate your money, then send us a report about how much you raised.</p>
+
+        <h2>Donate your money</h2>
+        <hr>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <h2>The Sacred Stone Camp</h2>
+        <a href="https://www.gofundme.com/sacredstonecamp"><img src="/assets/dist/images/sscamp-gofundme.jpg" class="img-thumbnail"></a>
+        <a href="https://www.gofundme.com/sacredstonecamp" class="btn btn-primary btn-lg" target="_blank">Donate via GoFundMe</a>
+      </div>
+      <div class="col-md-4">
+        <h2>Standing Rock Sioux Tribe - Dakota Access Pipeline Donation Fund</h2>
+        <p>
+          <strong>Mailing:</strong><br>
+          Standing Rock Sioux Tribe<br>
+          Attention: Donations<br>
+          PO Box D<br>
+          Building #1<br>
+          North Standing Rock Avenue<br>
+          Fort Yates, ND 58538<br>
+        </p>
+        <p><strong>PayPal</strong><br>
+          <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=TRNYF3EQBKPJ2" target="_blank"><img alt="" src="/assets/dist/images/paypal.jpg" style="width:100%;"></a></p>
+      </div>
+      <div class="col-md-4">
+        <h2>Legal Defense Fund</h2>
+        <div class="fr-widget" data-type="badge" data-variant="tower" data-width="300" data-url="http://fnd.us/sacredstone"><a href="https://fundrazr.com" target="_blank"><img src="//d30pl5hav4s8uw.cloudfront.net/widgets/powered-by.png" alt="Powered by FundRazr"/></a></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <h2>Fill out a report of your donation</h2>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdacS8fNR8Rq6bjtPTSe8hXGcjbj9GZ0QgiVtX0ehTmhIF1Yg/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0" style="width:100%;max-width:760px;">Loading...</iframe>
+      </div>
+    </div>
+  </div>
 </div>
