@@ -3,12 +3,12 @@
 title: 'First 100 for #NoDAPL'
 email: dhornbein@gmail.com
 description: 'Retail and Service Industries global fundraising campaign for Standing Rock'
-baseurl:          /jekyll-bootstrap-starter
-url:              http://ackernaut.github.io
+baseurl:          /First-100-NoDAPL
+url:              http://dhornbein.github.io
 name:             'First 100 for #NoDAPL'
 permalink:        pretty
-twitter_username: ackernaut
-github_username:  ackernaut
+twitter_username: hornbein
+github_username:  dhornbein
 port: 4040
 
 # Build settings
