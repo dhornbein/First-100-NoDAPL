@@ -40,3 +40,73 @@ $fa-font-path: 'https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/fonts';
 // -----------
 
 // @import 'components/components';
+
+.bkg-primary {
+  background-color: $brand-primary;
+  color:white;
+}
+.bkg-red {
+  background-color: $brand-red;
+  color: #fff;
+}
+
+.pad-row {
+  padding-top:50px;
+  padding-bottom:50px;
+}
+
+.title {
+  h1 {
+    font-size: 64px;
+  }
+}
+
+.steps {
+  padding: 20px 0 50px;
+  h2 {
+    margin-top: 0;
+  }
+}
+
+.step-num {
+  float: left;
+  font-family: $headings-font-family;
+  a {
+    border-radius: 50px;
+    display: inline-block;
+    font-size: 24px;
+    font-weight: bold;
+    width: 34px;
+    height: 34px;
+    background-color: $brand-primary;
+    color:#fff;
+    text-align: center;
+    line-height: 34px;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+.step1,.step2,.step3,.step4 {
+  .row:first-child {
+    padding-top: 50px;
+  }
+  .row:last-child {
+    padding-bottom: 50px;
+  }
+}
+
+.step1 .row {
+  background-color: $brand-yellow;
+}
+.step2 .row {}
+.step3 .row {
+  background-color: $brand-red;
+  color: #fff;
+}
+.step4 .row {}
+
+.form {
+  box-shadow: 2px 2px 4px rgba(0,0,0,.5);
+}
