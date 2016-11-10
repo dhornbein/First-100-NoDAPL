@@ -3,7 +3,7 @@
 title: 'First 100 for #NoDAPL'
 email: dhornbein@gmail.com
 description: 'Retail and Service Industries global fundraising campaign for Standing Rock'
-baseurl:          /
+baseurl:          
 url:              http://first100network.com
 name:             'First 100 for #NoDAPL'
 permalink:        pretty
